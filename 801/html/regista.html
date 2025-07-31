@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../img/descarregar.ico">
+    <meta name="description" content="Férias Low Cost - Encontre as melhores ofertas de férias a preços acessíveis.">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Férias Low Cost</title>
+</head>
+<body>
+    <header> <!-- Topo da página-->
+        <div id="topo">
+            <div id="logo"><img src="../img/descarregar.png"></div>
+            <div id="slogan"><p>As melhores ofertas de férias a preços imbatíveis!</p></div>    
+        </div>
+<!-- menu de navegação -->
+<div id="menu">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+
+      <!-- Centro: marca + links -->
+      <div class="d-flex flex-grow-1 justify-content-center align-items-center">
+        <a class="navbar-brand" href="../index.html">Home</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav d-flex align-items-center" style="gap: 20px;">
+            <li class="nav-item">
+              <a class="nav-link" href="praia.html">Férias de Verão</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="neve.html">Férias de Inverno</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="viagem.html">Férias em Viagem</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../php/listaUsers.php">Mostra Utilizadores Registados</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Direita: pesquisa + ícone -->
+      <div class="d-flex align-items-center" style="gap: 20px;">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <a href="#" class="nav-link">
+          <i class="fa fa-user" style="font-size: 20pt; color: rgba(17, 128, 12, 0.8);"></i>
+        </a>
+      </div>
+
+    </div>
+  </nav>
+</div>
+    </header>
+<main>
+    <div id="formulario">
+        <form class="row g-3" action="../php/regista.php" method="post">
+    <div class="row espacamento">       
+    <div class="col-md-6 col-sm-12">
+                <input type="text" class="form-control" placeholder="Insira o seu nome" aria-label="First name" name="nome">
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <input type="text" class="form-control" placeholder="Insira o seu apelido" aria-label="Last name" name="apelido">
+            </div>
+            </div>
+            <div class="row espacamento">       
+    <div class="col-md-6 col-sm-12">
+                <input type="text" class="form-control" placeholder="Insira a sua morada" aria-label="Morada" name="morada">
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <input type="email" class="form-control" placeholder="Insira o seu email" aria-label="E-mail" name="email">
+            </div>
+            </div>
+            <div class="row espacamento">       
+    <div class="col-md-6 col-sm-12">
+                <input type="text" class="form-control" placeholder="Insira o código postal" aria-label="Codpost" name="codpost">
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <input type="text" class="form-control" placeholder="Insira o concelho" aria-label="Concelho" name="concelho">
+            </div>
+            </div>
+            <div class="row espacamento">       
+    <div class="col-md-6 col-sm-12">
+                <input type="password" class="form-control" placeholder="Insira Password" aria-label="Password" name="password">
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <input type="password" class="form-control" placeholder="Reescreva password" aria-label="RePassword" name="repass">
+            </div>
+            </div>
+            <div class="row espacamento" style="display: flex; justify-content: center;">
+                <input type="submit" name="btnok" value="Registar" class="col-md-3 col-sm-6"> &nbsp;&nbsp;
+                <input type="reset" name="btnreset" value="Limpar dados" class="col-md-3 col-sm-6">
+            </div>
+        </form>
+
+    </div>
+</main>
+<footer>
+    <div id="rodape">
+        <p class="rodas">© 2023 Férias Low Cost. Todos os direitos reservados.<br>Desenvolvido por Bruno Carvalho &reg; TI931 - Julho 2025</p>
+    </div>
+</footer>
+</body>
+</html>

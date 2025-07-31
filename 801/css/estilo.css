@@ -1,0 +1,85 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    max-width: 90vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+header,main{
+    flex: 0;
+}
+#topo{
+    width: 100%;
+    height: 150px;
+}
+#logo{
+    width: 15%;
+    float: left;
+}
+#slogan{
+    width: 85%;
+    float: right;
+}
+#slogan p{
+    font-size: 28pt;
+    text-align: center;
+    margin-top: 20px;
+}
+#menu{
+    width: 100%;
+    height: 60px;
+}
+#carossel{
+    width: 100%;
+    height: 500px;
+}
+.dim{
+    height: 400px;
+}
+.legenda{
+    background-color:rgba(128, 128, 128, 0.7);
+    /*background-color: #B8582EAA; o AA trabalha a opacidade*/
+}
+#cartoes{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#cartao1 img, #cartao2 img, #cartao3 img{
+    width: 100%;
+    height: 200px;
+}
+#cartao1, #cartao2, #cartao3{
+    width: 22rem;
+    height: 500px;
+}
+main{
+    flex: 1; /*conteudo principal expande para empurrar o footer*/
+}
+footer{
+    text-align: left;
+    height: 60px;
+    font-size: 10pt;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    border-radius: 8px;
+}
+.rodas{
+    display: inline-block;
+    background-color: rgba(24, 62, 143, 0.3);
+    margin: 0;
+    padding: 0;
+    border-radius: 8px;
+    margin-top: 2%;
+}
+#formulario{
+    margin-top: 50px;
+}
+.espacamento{
+    margin-top: 20px;
+}

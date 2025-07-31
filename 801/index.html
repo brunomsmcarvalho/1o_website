@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/descarregar.ico">
+    <meta name="description" content="Férias Low Cost - Encontre as melhores ofertas de férias a preços acessíveis.">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Férias Low Cost</title>
+</head>
+<body>
+    <header> <!-- Topo da página-->
+        <div id="topo">
+            <div id="logo"><img src="img/descarregar.png"></div>
+            <div id="slogan"><p>As melhores ofertas de férias a preços imbatíveis!</p></div>    
+        </div>
+<!-- menu de navegação -->
+<div id="menu">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+
+      <!-- Centro: marca + links -->
+      <div class="d-flex flex-grow-1 justify-content-center align-items-center">
+        <a class="navbar-brand" href="#">Home</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav d-flex align-items-center" style="gap: 20px;">
+            <li class="nav-item">
+              <a class="nav-link" href="html/praia.html">Férias de Verão</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="html/neve.html">Férias de Inverno</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="html/viagem.html">Férias em Viagem</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="php/listaUsers.php">Mostra Utilizadores Registados</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Direita: pesquisa + ícone -->
+      <div class="d-flex align-items-center" style="gap: 20px;">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <a href="html/regista.html" class="nav-link">
+          <i class="fa fa-user" style="font-size: 20pt; color: rgba(17, 128, 12, 0.8);"></i>
+        </a>
+      </div>
+
+    </div>
+  </nav>
+</div>
+
+<!-- Carousel -->  
+    <div id="carossel">
+        <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="img/beach-6514331_1280.jpg" class="d-block w-100 dim" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5><span class="legenda">Férias na praia</span></h5>
+                <p><span class="legenda">Venha conhecer os melhores destinos de praia.</span></p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="img/mountains-8622035_1280.jpg" class="d-block w-100 dim" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5><span class="legenda">Férias na neve</span></h5>
+                <p><span class="legenda">Se é uma pessoa arrojada venha descobrir os melhores destinos para uma nova aventura.</span></p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="img/camera-1130731_1280.jpg" class="d-block w-100 dim" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5><span class="legenda">Viage para todo mundo</span></h5>
+                <p><span class="legenda">Se quer conhecer novos destinos, venha explorar o mundo conosco.</span></p>
+            </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </div>
+
+    </header>
+    <main>
+<!-- Cartões --> 
+    <div id="cartoes">
+        <div id="cartao1">
+            <div class="card">
+            <img src="img/beach-6514331_1280.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Férias na praia</h5>
+                <p class="card-text">Mais de 200 destinos à sua espera, veja as nossas sugestões e escolha o destino dos seus sonhos</p>
+                <a href="html/praia.html" class="btn btn-primary">Ver mais...</a>
+            </div>
+            </div>
+        </div>
+        <div id="cartao2">
+            <div class="card">
+            <img src="img/mountains-8622035_1280.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Férias na neve</h5>
+                <p class="card-text">Mais de 30 estâncias de ski espetaculares para conhecer e usufruir de umas férias com muita aventura</p>
+                <a href="html/neve.html" class="btn btn-primary">Ver mais...</a>
+            </div>
+            </div>
+        </div>
+        <div id="cartao3">
+            <div class="card">
+            <img src="img/camera-1130731_1280.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Férias em viagem</h5>
+                <p class="card-text">Mais de 300 destinos fantásticos, com experiências enriquecedoras e incriveis, estão a aguardar por si.</p>
+                <a href="html/viagem.html" class="btn btn-primary">Ver mais...</a>
+            </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="rodape">
+            <p class="rodas">© 2023 Férias Low Cost. Todos os direitos reservados.<br>Desenvolvido por Bruno Carvalho &reg; TI931 - Julho 2025</p>
+        </div>
+    </footer>
+</body>
+</html>
